@@ -3,27 +3,37 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		DE362F7624C7017500FEE9BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE362F7524C7017500FEE9BF /* AppDelegate.swift */; };
-		DE362F7824C7017500FEE9BF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE362F7724C7017500FEE9BF /* SceneDelegate.swift */; };
 		DE362F7A24C7017500FEE9BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE362F7924C7017500FEE9BF /* ViewController.swift */; };
-		DE362F7D24C7017500FEE9BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE362F7B24C7017500FEE9BF /* Main.storyboard */; };
 		DE362F7F24C7017500FEE9BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE362F7E24C7017500FEE9BF /* Assets.xcassets */; };
 		DE362F8224C7017500FEE9BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE362F8024C7017500FEE9BF /* LaunchScreen.storyboard */; };
+		DE362F8A24C70F8000FEE9BF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE362F8924C70F8000FEE9BF /* LoginViewController.swift */; };
+		DEA07EC224CD439F00A146AE /* FriendListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA07EC124CD439F00A146AE /* FriendListViewController.swift */; };
+		DEA07EC524CD4B5A00A146AE /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA07EC424CD4B5A00A146AE /* UserInfo.swift */; };
+		DEA07EC924CD544C00A146AE /* FriendProfileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA07EC824CD544C00A146AE /* FriendProfileTableViewCell.swift */; };
+		DEA07ECC24CD6E5D00A146AE /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA07ECB24CD6E5D00A146AE /* UIFont+Extension.swift */; };
+		E489E702F921F6E8B444DF4F /* Pods_RocketMan.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12323607161BEDC9EC7FEA79 /* Pods_RocketMan.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C24F5C542AA68BA4BCD2809 /* Pods-RocketMan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RocketMan.debug.xcconfig"; path = "Target Support Files/Pods-RocketMan/Pods-RocketMan.debug.xcconfig"; sourceTree = "<group>"; };
+		12323607161BEDC9EC7FEA79 /* Pods_RocketMan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RocketMan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE362F7224C7017500FEE9BF /* RocketMan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RocketMan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE362F7524C7017500FEE9BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DE362F7724C7017500FEE9BF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		DE362F7924C7017500FEE9BF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DE362F7C24C7017500FEE9BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DE362F7E24C7017500FEE9BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE362F8124C7017500FEE9BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DE362F8324C7017500FEE9BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE362F8924C70F8000FEE9BF /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		DEA07EC124CD439F00A146AE /* FriendListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendListViewController.swift; sourceTree = "<group>"; };
+		DEA07EC424CD4B5A00A146AE /* UserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
+		DEA07EC824CD544C00A146AE /* FriendProfileTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendProfileTableViewCell.swift; sourceTree = "<group>"; };
+		DEA07ECB24CD6E5D00A146AE /* UIFont+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Extension.swift"; sourceTree = "<group>"; };
+		F2DD70C26A5930AED018D9AE /* Pods-RocketMan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RocketMan.release.xcconfig"; path = "Target Support Files/Pods-RocketMan/Pods-RocketMan.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +41,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E489E702F921F6E8B444DF4F /* Pods_RocketMan.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C4F75F9CFC054A41C8297C5E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0C24F5C542AA68BA4BCD2809 /* Pods-RocketMan.debug.xcconfig */,
+				F2DD70C26A5930AED018D9AE /* Pods-RocketMan.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		DE362F6924C7017500FEE9BF = {
 			isa = PBXGroup;
 			children = (
 				DE362F7424C7017500FEE9BF /* RocketMan */,
 				DE362F7324C7017500FEE9BF /* Products */,
+				C4F75F9CFC054A41C8297C5E /* Pods */,
+				FDF4CB21569F898068F90ED1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +78,58 @@
 		DE362F7424C7017500FEE9BF /* RocketMan */ = {
 			isa = PBXGroup;
 			children = (
+				DEA07ECA24CD6E3500A146AE /* Extension */,
+				DEA07EC724CD53DA00A146AE /* View */,
+				DEA07EC624CD53CD00A146AE /* ViewController */,
+				DEA07EC324CD4B2A00A146AE /* Model */,
 				DE362F7524C7017500FEE9BF /* AppDelegate.swift */,
-				DE362F7724C7017500FEE9BF /* SceneDelegate.swift */,
-				DE362F7924C7017500FEE9BF /* ViewController.swift */,
-				DE362F7B24C7017500FEE9BF /* Main.storyboard */,
 				DE362F7E24C7017500FEE9BF /* Assets.xcassets */,
 				DE362F8024C7017500FEE9BF /* LaunchScreen.storyboard */,
 				DE362F8324C7017500FEE9BF /* Info.plist */,
 			);
 			path = RocketMan;
+			sourceTree = "<group>";
+		};
+		DEA07EC324CD4B2A00A146AE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DEA07EC424CD4B5A00A146AE /* UserInfo.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DEA07EC624CD53CD00A146AE /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DE362F7924C7017500FEE9BF /* ViewController.swift */,
+				DEA07EC124CD439F00A146AE /* FriendListViewController.swift */,
+				DE362F8924C70F8000FEE9BF /* LoginViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		DEA07EC724CD53DA00A146AE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DEA07EC824CD544C00A146AE /* FriendProfileTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DEA07ECA24CD6E3500A146AE /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				DEA07ECB24CD6E5D00A146AE /* UIFont+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		FDF4CB21569F898068F90ED1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				12323607161BEDC9EC7FEA79 /* Pods_RocketMan.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +139,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DE362F8624C7017500FEE9BF /* Build configuration list for PBXNativeTarget "RocketMan" */;
 			buildPhases = (
+				48504D2C946A70F3FE517909 /* [CP] Check Pods Manifest.lock */,
 				DE362F6E24C7017500FEE9BF /* Sources */,
 				DE362F6F24C7017500FEE9BF /* Frameworks */,
 				DE362F7024C7017500FEE9BF /* Resources */,
+				71AFA1B348130DB2422F59E1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,34 +194,71 @@
 			files = (
 				DE362F8224C7017500FEE9BF /* LaunchScreen.storyboard in Resources */,
 				DE362F7F24C7017500FEE9BF /* Assets.xcassets in Resources */,
-				DE362F7D24C7017500FEE9BF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		48504D2C946A70F3FE517909 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RocketMan-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		71AFA1B348130DB2422F59E1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RocketMan/Pods-RocketMan-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RocketMan/Pods-RocketMan-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RocketMan/Pods-RocketMan-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DE362F6E24C7017500FEE9BF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEA07EC924CD544C00A146AE /* FriendProfileTableViewCell.swift in Sources */,
+				DEA07EC224CD439F00A146AE /* FriendListViewController.swift in Sources */,
+				DE362F8A24C70F8000FEE9BF /* LoginViewController.swift in Sources */,
+				DEA07ECC24CD6E5D00A146AE /* UIFont+Extension.swift in Sources */,
 				DE362F7A24C7017500FEE9BF /* ViewController.swift in Sources */,
+				DEA07EC524CD4B5A00A146AE /* UserInfo.swift in Sources */,
 				DE362F7624C7017500FEE9BF /* AppDelegate.swift in Sources */,
-				DE362F7824C7017500FEE9BF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		DE362F7B24C7017500FEE9BF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DE362F7C24C7017500FEE9BF /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		DE362F8024C7017500FEE9BF /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,6 +386,7 @@
 		};
 		DE362F8724C7017500FEE9BF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C24F5C542AA68BA4BCD2809 /* Pods-RocketMan.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +405,7 @@
 		};
 		DE362F8824C7017500FEE9BF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2DD70C26A5930AED018D9AE /* Pods-RocketMan.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

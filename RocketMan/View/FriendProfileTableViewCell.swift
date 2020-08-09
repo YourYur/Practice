@@ -25,8 +25,7 @@ class FriendProfileTableViewCell: UITableViewCell { //TableViewCell class 상속
         fatalError("init(coder:) has not been implemented")
     }
     
-    func setUp() { // cell 의 각 요소 css 상세 세팅해줌. 내용은 다른 func configure 에서 해줄거임.
-        //  cell에다가 UI컴포넌트 추가(addsubview)할때는 cell의 contentView에 추가해야한다. cf. viewcontroller의 경우 view 였음.
+    func setUp() { 
         
         contentView.addSubview(profileImageButton) // 요소 세팅해줄 때, 가독성 위해 일정 방향으로 쓴다. 여기선 왼쪽에서 오른쪽으로 가면서 생기는 요소 순서대로 써줘서 이미징 가능하게!
         profileImageButton.snp.makeConstraints {make in

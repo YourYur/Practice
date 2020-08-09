@@ -25,9 +25,9 @@ class FriendProfileTableViewCell: UITableViewCell { //TableViewCell class 상속
         fatalError("init(coder:) has not been implemented")
     }
     
-    func setUp() { 
+    func setUp() {
         
-        contentView.addSubview(profileImageButton) // 요소 세팅해줄 때, 가독성 위해 일정 방향으로 쓴다. 여기선 왼쪽에서 오른쪽으로 가면서 생기는 요소 순서대로 써줘서 이미징 가능하게!
+        contentView.addSubview(profileImageButton) 
         profileImageButton.snp.makeConstraints {make in
             make.size.equalTo(40)
             make.leading.top.bottom.equalToSuperview().inset(10)

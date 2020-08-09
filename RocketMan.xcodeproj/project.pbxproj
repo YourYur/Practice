@@ -100,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				DEA07EC424CD4B5A00A146AE /* UserInfo.swift */,
+				DE10BA5C24DD10D20085EC69 /* MailInfo.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -110,6 +111,7 @@
 				DE362F7924C7017500FEE9BF /* ViewController.swift */,
 				DEA07EC124CD439F00A146AE /* FriendListViewController.swift */,
 				DE362F8924C70F8000FEE9BF /* LoginViewController.swift */,
+				DE10BA5A24DD0FCD0085EC69 /* MailListViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -118,6 +120,7 @@
 			isa = PBXGroup;
 			children = (
 				DEA07EC824CD544C00A146AE /* FriendProfileTableViewCell.swift */,
+				DE10BA5E24DD16470085EC69 /* MailTableViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";

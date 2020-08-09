@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE10BA5B24DD0FCD0085EC69 /* MailListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE10BA5A24DD0FCD0085EC69 /* MailListViewController.swift */; };
+		DE10BA5D24DD10D20085EC69 /* MailInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE10BA5C24DD10D20085EC69 /* MailInfo.swift */; };
+		DE10BA5F24DD16470085EC69 /* MailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE10BA5E24DD16470085EC69 /* MailTableViewCell.swift */; };
 		DE362F7624C7017500FEE9BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE362F7524C7017500FEE9BF /* AppDelegate.swift */; };
 		DE362F7A24C7017500FEE9BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE362F7924C7017500FEE9BF /* ViewController.swift */; };
 		DE362F7F24C7017500FEE9BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE362F7E24C7017500FEE9BF /* Assets.xcassets */; };
@@ -22,6 +25,9 @@
 /* Begin PBXFileReference section */
 		0C24F5C542AA68BA4BCD2809 /* Pods-RocketMan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RocketMan.debug.xcconfig"; path = "Target Support Files/Pods-RocketMan/Pods-RocketMan.debug.xcconfig"; sourceTree = "<group>"; };
 		12323607161BEDC9EC7FEA79 /* Pods_RocketMan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RocketMan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE10BA5A24DD0FCD0085EC69 /* MailListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailListViewController.swift; sourceTree = "<group>"; };
+		DE10BA5C24DD10D20085EC69 /* MailInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailInfo.swift; sourceTree = "<group>"; };
+		DE10BA5E24DD16470085EC69 /* MailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailTableViewCell.swift; sourceTree = "<group>"; };
 		DE362F7224C7017500FEE9BF /* RocketMan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RocketMan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE362F7524C7017500FEE9BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DE362F7924C7017500FEE9BF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -94,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				DEA07EC424CD4B5A00A146AE /* UserInfo.swift */,
+				DE10BA5C24DD10D20085EC69 /* MailInfo.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -104,6 +111,7 @@
 				DE362F7924C7017500FEE9BF /* ViewController.swift */,
 				DEA07EC124CD439F00A146AE /* FriendListViewController.swift */,
 				DE362F8924C70F8000FEE9BF /* LoginViewController.swift */,
+				DE10BA5A24DD0FCD0085EC69 /* MailListViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -112,6 +120,7 @@
 			isa = PBXGroup;
 			children = (
 				DEA07EC824CD544C00A146AE /* FriendProfileTableViewCell.swift */,
+				DE10BA5E24DD16470085EC69 /* MailTableViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -248,9 +257,12 @@
 			files = (
 				DEA07EC924CD544C00A146AE /* FriendProfileTableViewCell.swift in Sources */,
 				DEA07EC224CD439F00A146AE /* FriendListViewController.swift in Sources */,
+				DE10BA5F24DD16470085EC69 /* MailTableViewCell.swift in Sources */,
 				DE362F8A24C70F8000FEE9BF /* LoginViewController.swift in Sources */,
 				DEA07ECC24CD6E5D00A146AE /* UIFont+Extension.swift in Sources */,
 				DE362F7A24C7017500FEE9BF /* ViewController.swift in Sources */,
+				DE10BA5D24DD10D20085EC69 /* MailInfo.swift in Sources */,
+				DE10BA5B24DD0FCD0085EC69 /* MailListViewController.swift in Sources */,
 				DEA07EC524CD4B5A00A146AE /* UserInfo.swift in Sources */,
 				DE362F7624C7017500FEE9BF /* AppDelegate.swift in Sources */,
 			);

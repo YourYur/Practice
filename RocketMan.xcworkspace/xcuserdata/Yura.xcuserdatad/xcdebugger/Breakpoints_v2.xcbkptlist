@@ -7,32 +7,32 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "1E2AA294-0B51-48A2-926A-E44EBCACB0E2"
-            shouldBeEnabled = "Yes"
+            uuid = "BFFE75D2-85B2-414F-AF81-318AF4EC8CEE"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "RocketMan/FriendListViewController.swift"
+            filePath = "RocketMan/ViewController/FriendListViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "45"
-            endingLineNumber = "45"
-            landmarkName = "tableView(_:cellForRowAt:)"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "viewDidLoad()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "2BD14FEF-EA22-4FAF-B266-9321E9B742D3"
+            uuid = "8B08DC8F-8A16-4A77-9E15-1F9E70E5166B"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "RocketMan/View/FriendProfileTableViewCell.swift"
+            filePath = "RocketMan/ViewController/FriendListViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "93"
-            endingLineNumber = "93"
-            landmarkName = "configure(userInfo:)"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "setUp()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

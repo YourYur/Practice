@@ -11,7 +11,7 @@ import UIKit
 extension UIFont {
 
     static var defaultFont: UIFont {
-           return UIFont.systemFont(ofSize: 12)
+           return UIFont.systemFont(ofSize: 12) // 왜 변수인데 return?이 오는거징?
        }
        static var defaultBold: UIFont {
            return UIFont.systemFont(ofSize: 12, weight: .bold)
@@ -22,4 +22,7 @@ extension UIFont {
        static var defaultLargeBold: UIFont {
            return UIFont.systemFont(ofSize: 14, weight: .bold)
        }
+    static var titleBold: UIFont {
+        return UIFont.systemFont(ofSize: 28, weight: .bold)
+    }
 }

@@ -55,7 +55,6 @@ class FriendProfileTableViewCell: UITableViewCell { //TableViewCell class 상속
         stackView.addArrangedSubview(userNameLabel)
         stackView.addArrangedSubview(statusMessageLabel) //stackview를 먼저해주고, 그 안에 들어가는 요소 정해주게 쓰면 가독성이 오히려 떨어지나? 가능은 한가?? 해보기
         
-        
         contentView.addSubview(musicButton)
         musicButton.setTitleColor(UIColor.black.withAlphaComponent(0.5), for: .normal)
         musicButton.titleLabel?.font = UIFont.defaultFont

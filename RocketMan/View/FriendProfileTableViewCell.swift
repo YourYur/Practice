@@ -42,7 +42,6 @@ class FriendProfileTableViewCell: UITableViewCell { //TableViewCell class 상속
         statusMessageLabel.font = UIFont.systemFont(ofSize: 12)
         statusMessageLabel.textColor = UIColor.black.withAlphaComponent(0.5)
         
-        
         let stackView = UIStackView()
         stackView.axis = .vertical
         stackView.spacing = 5
